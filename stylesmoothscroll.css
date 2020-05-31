@@ -1,0 +1,714 @@
+html{
+    overflow-x: hidden;
+}
+
+
+.topsection{
+    position: absolute;
+    display:block;
+    width:100vw;
+    height: 100vh;
+    background: rgb(203,228,255);
+    background: linear-gradient(90deg, rgba(203,228,255,1) 0%, rgba(243,248,255,1) 100%);
+    left:0%;
+    top:100%;
+
+}
+
+.mainsection{
+    position: absolute;
+    width:100vw;
+    height: 100vh;
+    top:0%; 
+    left:0%;
+}
+
+.morecontainer.bg{
+    position:fixed;
+    width:15vw;
+    height: 100vh;
+    z-index: 1000;
+    background: white;
+    opacity: .8;
+}
+
+.morecontainer{
+    position:fixed;
+    width:15vw;
+    height: 100vh;
+    z-index: 1000;
+}
+
+
+
+.icon{
+    position: absolute;
+    display: block;
+    top:80vh; 
+    left:42.5vw;
+    width:15vw;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation:bouncer 1s infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes bouncer {
+    100% {transform:translateY(10px);}
+}
+@keyframes bounce {
+    transform:translateY()
+}
+
+.middlesection{
+    position: absolute;
+    display: block;
+    width:100vw;
+    height: 100vh;
+    background: rgb(203,228,255);
+    background: linear-gradient(90deg, rgba(243,248,255,1) 0%,  rgba(203,228,255,1) 100%);
+    top:200%;
+    left:0%;
+
+}
+
+
+.bottomsection{
+    position: absolute;
+    display: block;
+    width:100vw;
+    height: 100vh;
+    background: rgb(203,228,255);
+    background: linear-gradient(90deg, rgba(203,228,255,1) 0%, rgba(243,248,255,1) 100%);
+    top:300%;
+    left:0%;
+    overflow-x: hidden;
+
+}
+
+.bottomsectionbg{
+    position: absolute;
+    display: block;
+    width:100vw;
+    height: 80vh;
+    top:10%;
+    left:15%;
+    background: rgb(156,204,255);
+    background: linear-gradient(90deg, rgba(156,204,255,1) 0%, rgba(212,230,255,1) 100%);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.middlesectionbg{
+    position: absolute;
+    display: block;
+    width:85vw;
+    height: 80vh;
+    top:10%;
+    left:0%;
+    background: rgb(156,204,255);
+    background: linear-gradient(90deg, rgba(212,230,255,1) 0%, rgba(156,204,255,1) 100%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.topsectionbg{
+    position: absolute;
+    display: block;
+    width:100vw;
+    height: 80vh;
+    top:10%;
+    left:15%;
+    background: rgb(156,204,255);
+    background: linear-gradient(90deg, rgba(156,204,255,1) 0%, rgba(212,230,255,1) 100%);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.sputnikimage{
+    position: absolute;
+    height: 80%;
+    top:10%;
+    right:35%;
+    z-index: 4;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.middlesectionoverlay{
+    position: absolute;
+    height:80%;
+    top:10%;
+    left:0%;
+    width:9%;
+    z-index: 6;
+    border-radius: 0px 20px 20px 0px;
+    background:white;
+    opacity: 1;
+}
+
+
+.shoegif{
+    position: absolute;
+    height: 80%;
+    top:10%;
+    left:35%;
+    z-index: 4;
+    border-radius: 20px;
+}
+
+
+
+
+.beatpadvideo{
+    position: absolute;
+    height: 80%;
+    top:10%;
+    left:35%;
+    z-index: 5;
+    border-radius: 20px;
+}
+
+
+
+
+body{
+    width:100vw;
+    font-size:10px;
+}
+
+
+.deployedlink{
+    z-index: 110;
+    background-color:grey;
+    position: absolute;
+    top:15%;
+    left:69.5%;    
+    padding:.5rem 1.2rem;
+    font-size: .5rem;
+    outline:none;
+    border:2px solid grey;
+    color:white;
+    cursor:pointer;
+    transition:color 0.4s linear;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 200px;
+
+}
+
+.repositorylink{
+    z-index: 110;
+    background-color:grey;
+    position: absolute;
+    top:25%;
+    left:69.5%;    
+    padding:.5rem .9rem;
+    font-size: .5rem;
+    outline:none;
+    border:2px solid grey;
+    color:white;
+    cursor:pointer;
+    transition:color 0.4s linear;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 200px;
+
+}
+
+
+
+@keyframes slider{
+    0% {right:-100%;}
+    100% { right: 18%; }
+}
+
+@keyframes slider2{
+    0% {left:100%;}
+    100% { left: 75%; }
+}
+
+.deployedlink:hover{
+    color:grey;
+}
+
+.deployedlink::before{
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background:white;
+    z-index: -1;
+    transition: transform 0.3s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    transform:scaleY(0);
+    border-radius: 200px;
+
+}
+.deployedlink:hover::before{
+    transform:scaleY(1);
+}
+
+.repositorylink:hover{
+    color:grey;
+}
+
+.repositorylink::before{
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background:white;
+    z-index: -1;
+    transition: transform 0.3s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    transform:scaleY(0);
+    border-radius: 200px;
+}
+.repositorylink:hover::before{
+    transform:scaleY(1);
+}
+
+
+.deployedlinkbeatpad{
+    z-index: 110;
+    background-color:grey;
+    position: absolute;
+    top:15%;
+    left:19.5%;    
+    padding:.5rem 1.2rem;
+    font-size: .5rem;
+    outline:none;
+    border:2px solid grey;
+    color:white;
+    cursor:pointer;
+    transition:color 0.4s linear;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 200px;
+
+}
+
+.repositorylinkbeatpad{
+    z-index: 110;
+    background-color:grey;
+    position: absolute;
+    top:25%;
+    left:19.5%;    
+    padding:.5rem .9rem;
+    font-size: .5rem;
+    outline:none;
+    border:2px solid grey;
+    color:white;
+    cursor:pointer;
+    transition:color 0.4s linear;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 200px;
+
+}
+
+.deployedlinkbeatpad:hover{
+    color:grey;
+}
+
+.deployedlinkbeatpad::before{
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background:white;
+    z-index: -1;
+    transition: transform 0.3s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    transform:scaleY(0);
+    border-radius: 200px;
+
+}
+.deployedlinkbeatpad:hover::before{
+    transform:scaleY(1);
+}
+
+.repositorylinkbeatpad:hover{
+    color:grey;
+}
+
+.repositorylinkbeatpad::before{
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background:white;
+    z-index: -1;
+    transition: transform 0.3s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    transform:scaleY(0);
+    border-radius: 200px;
+}
+.repositorylinkbeatpad:hover::before{
+    transform:scaleY(1);
+}
+
+
+
+.resume{
+    position: fixed;
+    display: flex;
+    left:2.75%;
+    width:3%;
+    opacity:1;
+    outline: none;
+    cursor: pointer;
+    bottom:12%;
+}
+
+.github{
+    position: fixed;
+    display: flex;
+    left:2.75%;
+    width:3%;
+    opacity:1;
+    outline: none;
+    cursor: pointer;
+    bottom:18%;
+}
+
+.linkedin{
+    position: fixed;
+    display: flex;
+    left:2.75%;
+    width:3%;
+    opacity:1;
+    outline: none;
+    cursor: pointer;
+    bottom:24%;
+}
+.linkedin:hover{
+    animation: grow 500ms forwards;
+}
+
+.github:hover{
+    animation: grow 500ms forwards;
+}
+
+.resume:hover{
+    animation: grow 500ms forwards;
+}
+
+.contact{
+    position: fixed;
+    display: flex;
+    left:2.75%;
+    width:3%;
+    opacity:1;
+    outline: none;
+    cursor: pointer;
+    bottom:30%;
+}
+.contact:hover{
+    animation: grow 500ms forwards;
+}
+
+.topsectionbutton{
+    position: fixed;
+    cursor: pointer;
+    top: 30%;
+    outline:none;
+    color:grey;
+    cursor:pointer;
+    width:7%;
+    left:1%;
+    opacity: .8;
+}  
+
+
+
+
+.bottomsectionbutton{
+    position: fixed;
+    cursor: pointer;
+    top: 50%;
+    outline:none;
+    color:grey;
+    cursor:pointer;
+    text-decoration: none;
+    font-family: sans-serif;
+    pointer-events: all;
+    width:6%;
+    left:1.25%;
+    opacity: .8;
+}  
+
+.logo{
+    position: fixed;
+    top: 2%;
+    outline:none;
+    color:grey;
+    cursor:pointer;
+    pointer-events: all;
+    width:5%;
+    left:2%;
+}
+
+
+.projects{
+    position: fixed;
+    top: 16%;
+    outline:none;
+    pointer-events: none;
+    width:3%;
+    left:2.75%;
+    opacity: .8;
+}
+
+.projects2{
+    position: fixed;
+    top: 57%;
+    outline:none;
+    pointer-events: none;
+    width:3%;
+    left:2.75%;
+    opacity: .8;
+}
+
+  
+.middlesectionbutton{
+    position: fixed;
+    cursor: pointer;
+    top:36%;
+    font-size-adjust: auto;
+    outline:none;
+    color:grey;
+    cursor:pointer;
+    text-decoration: none;
+    font-family: sans-serif;
+    pointer-events: all;
+    font-weight: 700;
+    width:6%;
+    left:1.5%;
+    opacity: .8;
+}  
+
+.middlesectionbutton:hover{
+    opacity: 1;
+}
+
+.topsectionbutton:hover{
+    opacity: 1;
+}
+
+.bottomsectionbutton:hover{
+    opacity: 1;
+}
+
+
+.morebutton{
+    position: fixed;
+    top:1%;
+    left:1%;
+    width: 5%;
+    z-index: 1000;
+    opacity: 0;
+    outline:none;
+}
+
+@media(height:600px){
+    .morecontainer{
+        background:white;
+        opacity: .8;
+    }
+}
+
+.textcontainer{
+    width:18%;
+    height:50%;
+    left:16%;
+    top:35%;
+    position: absolute;
+    font-size: .8rem;
+    color:grey;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 160%;
+}
+.textcontainer2{
+    width:18%;
+    height:50%;
+    right:16%;
+    top:35%;
+    position: absolute;
+    font-size: .8rem;
+    color:grey;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 160%;
+}
+
+.cover{
+    width:100vw;
+    left:0%;
+    top:0%;
+    z-index: -100;
+    position: fixed;
+}
+
+
+@media(max-width:650px){
+    .beatpadvideo{
+        left:7%;
+        height: 70%;
+        top:2%;
+    }
+    .topsectionbg{
+        left:7%;
+        height: 80%;
+        top:15%; 
+    }
+    .bottomsectionbg{
+        left:7%;
+        height: 80%;
+        top:15%; 
+    }
+    .deployedlinkbeatpad{
+        top:75%;
+        left:21%;
+    }
+    .repositorylinkbeatpad{
+        top:75%;
+        left:57%;
+    }
+    .deployedlink{
+        top:75%;
+        left:21%;
+    }
+    .repositorylink{
+        top:75%;
+        left:57%;
+    }
+    .shoegif{
+        left:7%;
+        height: 70%;
+        top:2%;
+    }
+    .morecontainer{
+        opacity: 0;
+    }
+    .morecontainer.active{
+        opacity: 1;
+        width:40%;
+        background: white;
+    }
+
+    .morebutton{
+        opacity: 1;
+        z-index: 1001;
+    }
+    .morebutton:hover{
+        animation: grow 500ms forwards;
+    }
+    .contact{
+       left:16%; 
+       width:7%;
+       bottom:28%;
+
+    }
+    .github{
+       left:16%; 
+       width:7%;
+       bottom:13%;
+
+    }
+    .linkedin{
+       left:16%; 
+       width:7%;
+       bottom:6%;
+
+    }
+    .resume{
+       left:16%; 
+       width:7%;
+       bottom:21%;
+    }
+    .bottomsectionbutton{
+        width:12%;
+        left:13%;
+    }
+    .middlesectionbutton{
+        width:12%;
+        left:13%;
+    }
+    .topsectionbutton{
+        width:12%;
+        left:13%;
+    }
+    .logo{
+        width:15%;
+        left:12%;
+    }
+    .middlesectionoverlay{
+        opacity: 0;
+    }
+    .sputnikimage{
+        right:7%;
+        height: 70%;
+        top:2%;
+    }
+    .middlesectionbg{
+        left:0%;
+        height: 80%; 
+        top:15%; 
+        width: 93vw;
+    }
+    .mainsection{
+        height: 50vh;
+    }
+    .topsection{
+        top:50%;
+    }
+    .middlesection{
+        top:150%;
+    }
+    .bottomsection{
+        top:250%;
+    }
+    .textcontainer{
+        width:80%;
+        height:20%;
+        left:15%;
+        top:81%;
+        font-size: 1.1em;
+    }
+    .textcontainer2{
+        width:85%;
+        height:20%;
+        left:5%;
+        top:81%;
+        font-size: 1.1em;
+    }
+    .projects{
+        width:6.5%;
+        top:16.5%;
+        left:16%;
+    }
+    .projects2{
+        width:6.5%;
+        top:57%;
+        left:16%;
+    }
+}
+
+@keyframes grow {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1.1);
+	}
+}

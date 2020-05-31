@@ -1,0 +1,1616 @@
+
+html {
+    overflow-y: hidden;
+}
+
+
+.beatpadbg{
+    position:fixed;
+    width:35%;
+    z-index: 1;
+    left:0;
+    top:0;
+}
+
+
+.beatpadbg:after{
+    content:"";
+    display: block;
+    padding-bottom: 100%;
+}
+
+body{
+    background:#6B8091;
+    position: fixed;
+    z-index: -10;
+}
+
+.beatpadcontainer{
+    position:absolute;
+    background:#444444;
+    width:60%;
+    height: 60%;
+    z-index: 2;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-left: 8%;
+    margin-top:12%;
+    grid-gap:2%;
+    padding:2%;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.41);
+    box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.41);
+    font-size:20%;
+}
+
+input{
+    display:none;
+}
+
+#beatpad_01{
+    position:grid;
+    display:block;
+    padding:46%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+#beatpad_02{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin-left:4%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+
+#beatpad_03{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:45%;
+    top:10;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+
+#beatpad_04{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:70%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+
+#beatpad_05{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+
+#beatpad_06{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin-left:4%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+
+#beatpad_07{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:45%;
+    top:10;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+
+#beatpad_08{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:70%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+
+#beatpad_09{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+#beatpad_10{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+#beatpad_11{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+}
+#beatpad_12{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+#beatpad_13{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+#beatpad_14{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+#beatpad_15{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+#beatpad_16{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: #9F9F9F;
+    background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
+    outline:none;
+    border:none;
+    border-radius: 2px;
+}
+
+#beatpad_01.hassound{
+    position:grid;
+    display:block;
+    padding:46%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);
+    outline:none;
+    border: none;
+    
+}
+
+#beatpad_02.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin-left:4%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+
+#beatpad_03.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:45%;
+    top:10;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+
+#beatpad_04.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:70%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+
+#beatpad_05.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+
+#beatpad_06.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin-left:4%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+
+#beatpad_07.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:45%;
+    top:10;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+
+#beatpad_08.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:70%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+
+#beatpad_09.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+#beatpad_10.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+#beatpad_11.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+#beatpad_12.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+#beatpad_13.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+#beatpad_14.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+#beatpad_15.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+#beatpad_16.hassound{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+}
+
+#beatpad_01.hassound.animation{
+    position:grid;
+    display:block;
+    padding:46%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);
+    outline:none;
+    border: none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+    
+}
+
+#beatpad_02.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin-left:4%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+
+#beatpad_03.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:45%;
+    top:10;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+
+#beatpad_04.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:70%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+
+#beatpad_05.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+
+#beatpad_06.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin-left:4%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+
+#beatpad_07.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:45%;
+    top:10;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+
+#beatpad_08.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    left:70%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+
+#beatpad_09.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+#beatpad_10.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+#beatpad_11.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+#beatpad_12.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+#beatpad_13.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+#beatpad_14.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+#beatpad_15.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+#beatpad_16.hassound.animation{
+    position:grid;
+    display:block;
+    padding:10%;
+    margin:4%;
+    background: rgb(63,209,251);
+    background: radial-gradient(circle, rgba(63,209,251,1) 0%, rgba(107,128,145,1) 100%);    
+    outline:none;
+    border:none;
+    animation:pulse .2s;
+    animation-iteration-count: 2;
+}
+
+
+.beatpad:hover{
+    transform:scale(1.1);
+    transform-origin: center;
+    color:white;
+    opacity: 1;
+}
+
+.beatpadbg2{
+    position:fixed;
+    background:#9F9F9F;
+    width:35%;
+    height: 100%;
+    z-index: -2;
+    left:0;
+    top:0;
+}
+
+
+.container{
+    width:50%;
+    height:30%;
+    padding:2%;
+    padding-bottom:10%;
+    padding-top: 10%;
+    margin-top:90%;
+    margin-left:10%;
+    font-family: "tahoma", sans-serif;
+    font-size:70%;
+}
+
+.selected{
+    padding:3%;
+    cursor: pointer;
+    background:white;
+    position:relative;
+    padding-left: 12%;
+    border-right: 6px solid #9F9F9F;
+    border-left: 9px solid #9F9F9F;
+}  
+
+
+.selected::after{
+    content: "";
+    background: url(arrow-down.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 60%;
+    width: 12%;
+    right:5%;
+    top:20%;
+   
+}
+
+.beatpad.active{
+    box-shadow: inset 0px 0px 20px white;
+    
+}
+
+.selected.active::after{
+    content: "";
+    background: url(arrow-up.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    position: absolute;
+    height: 60%;
+    width: 12%;
+    right:5%;
+    top:20%;
+}
+
+
+.option{
+    padding:3%;
+    padding-left: 11%;
+    position:relative;
+    width: 100%;
+    border-left: 6px solid #9F9F9F;
+    border-right: 6px solid #9F9F9F;
+    box-sizing: border-box;
+
+}
+
+.option:hover{
+    background:#6B8091;
+    transform:scale(1.2);
+    transform-origin: center; 
+    color:white;
+    border-right:6px solid #6B8091;
+    border-left:6px solid #6B8091;
+    z-index: 20;
+    cursor: grab;
+}
+
+.option:active{
+    background:#6B8091;
+    transform:scale(1.2);
+    transform-origin: center; 
+    color:white;
+    border-right:6px solid #6B8091;
+    border-left:6px solid #6B8091;
+    z-index: 20;
+    cursor: grabbing;
+}
+
+.option::after{
+    content: "";
+    background: url(draganddrop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 75%;
+    width: 12%;
+    right:4%;
+    top:10%;
+}
+
+.option:hover:after{
+    background: url(draganddrop2.png);    
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 75%;
+    width: 12%;
+    right:9%;
+    top:20%;
+
+}
+
+
+.box-border.active{
+    width: 19%;
+    height: 30%;
+    position: fixed;
+    left: 3.5%;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.box-border{
+    width: 19%;
+    height: 30%;
+    position: fixed;
+    left: 3.5%;
+    overflow: hidden;
+    opacity: 1;
+
+}
+
+
+.box-border:hover:before{
+    display: block;
+}
+
+.select-box{
+    margin-top: 7%;
+    max-height: 78%;
+    max-width: 90%;
+    background:white;
+    opacity:1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left:2.5%;
+    border-right: 6px solid #9F9F9F;
+    border-left: 6px solid #9F9F9F;
+    animation:slider 1s forwards;
+    animation-timing-function: ease-in-out;
+
+}
+
+.select-box.active{
+    margin-top: 3%;
+    max-height: 78%;
+    max-width: 90%;
+    background:white;
+    opacity:1;
+    overflow-y: scroll;
+    margin-left:4.5%;
+    padding-top: 6%;
+
+}
+
+
+#maintable{
+    font-family: "tahoma", sans-serif;
+    height:97%;
+    width: 71%;
+    margin-left: 27%;
+    position:fixed;
+    z-index: 100;
+    background-color: #e3e6f2;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.41);
+    box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.41);
+    border-radius: 8px;
+    padding:.4%;
+    overflow-x: hidden;
+    border-collapse: collapse;
+}
+
+
+td:nth-child(1n+1):hover{
+    border:1px dashed grey;
+}
+
+td:not(first-child){
+    border-top: 1px solid #F3F6FE;
+}
+
+
+th:nth-child(1){
+    border-top: 1px solid #F3F6FE;
+    color: #FFFFFF;
+    padding:1.5%;
+    border-radius: 8px 0px 0px 0px;    
+}
+
+th:nth-child(1){
+    background-color: #D0DDE6;
+    border:none;
+}
+
+th{
+    border:none;
+}
+
+
+#pad16{
+    background-color: #BECCD7;
+    border-radius: 0px 0px 0px 8px;
+}
+
+td:nth-child(8n+1){
+    border-right:1px dashed white;
+}
+td:nth-child(32n+1){
+    border-right:1px solid white;
+}
+
+td:nth-child(129){
+    border-right:none;
+}
+td:nth-child(1){
+    background-color: #BECCD7;
+    font-size: 12px;
+    border-top: 1px solid #C3D0DA;
+    text-align: center;
+    border-left:none;
+    border-right:none;
+}
+
+td:nth-child(1):hover{
+    background-color: #BECCD7;
+    font-size: 12px;
+    border-top: 1px solid #C3D0DA;
+    text-align: center;
+    border-left:none;
+    border-right:none;
+}
+
+.color{
+    background-color: #95CFFF;
+}
+
+
+
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+	}
+
+	70% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(1);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+@keyframes slider {
+	0% {
+		transform: scale(0);
+        transform-origin: top;
+	}
+	100% {
+		transform: scale(1);
+        transform-origin: top;
+	}
+}
+
+
+div > audio{  
+    width:500px; 
+    background:#000; 
+    float:left;  
+    opacity: 0;
+}
+canvas{ 
+    width:20%; 
+    height:10%; 
+    position:fixed;
+    display: block;
+    left:4%;
+    padding-top: 28%;
+    z-index: -1;
+}
+
+.playbutton{
+    position:fixed;
+    display: block;
+    z-index: 200;
+    left:41%;
+    top:2.75%;
+    width:2%;
+    outline: none;
+
+}
+.playbutton:hover{
+    transform:scale(1.1);
+}
+
+.recordbutton{
+    position:fixed;
+    display: block;
+    z-index: 200;
+    left:44%;
+    top:2.75%;
+    width:2%;
+    outline: none;
+}
+.recordbutton:hover{
+    transform:scale(1.1);
+}
+
+
+.metronome{
+    position:fixed;
+    display: block;
+    z-index: 200;
+    right:25%;
+    top:3.25%;
+    width:3%;
+    outline:none;
+}
+
+.metronome:hover{
+    transform:scale(1.1);
+}
+
+
+.bpmcontainer{
+    padding-top:1px;
+    position:fixed;
+    display: block;
+    z-index: 200;
+    right:2%;
+    width:15%;
+    height:5%;
+    top:2.5%;
+    outline:none;
+    font-family: sans-serif;
+    font-size: 8px;
+    border-radius: 10px;
+    color:#096289;
+}
+
+.bpm-label{
+    position: fixed;
+    display: block;
+    right:18%;
+    top:3.25%;
+}
+
+.box-minmax{
+    display: block;
+    position: fixed;
+    padding-top: 1.5%;
+    font-size: 100%;
+    color:#096289;
+}
+.bpmrange:hover {
+  opacity: .9;
+}
+
+.bpmrange::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.bpmrange::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.bpmrange{
+  position: absolute;
+  display: block;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 12px; 
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#min{
+    position: fixed;
+    display: block;
+    position: fixed;
+    right:14.5%;
+}
+
+#max{
+    position: fixed;
+    display: block;
+    position: fixed;
+    right:3%;
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .bpmrange {
+      overflow: hidden;
+      -webkit-appearance: none;
+      background-color: #BECCD7;
+
+    }
+    
+    .bpmrange::-webkit-slider-runnable-track {
+      height: 100%;
+      -webkit-appearance: none;
+      color: #BECCD7;
+      width:2px;
+    }
+    
+    .bpmrange::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      cursor: ew-resize;
+      background: #444444;
+      box-shadow: -60.5vw 0 0 60vw #6B8091;
+      border:1px solid #6B8091;
+    }
+
+
+
+
+.playbarcontainer{
+    height:96vmin;
+    width: 58.5%;
+    position:fixed;
+    border-radius: 8px;
+    overflow: hidden;
+    border-collapse: collapse;
+    z-index: 0;
+    left:39.5%;
+    outline:none;
+    margin-top: 5vmin;
+    opacity:0;
+}
+    
+.playbarcontainer.active{
+    height:96vmin;
+    width: 58.5%;
+    position:fixed;
+    border-radius: 8px;
+    overflow: hidden;
+    border-collapse: collapse;
+    z-index: 0;
+    left:39.5%;
+    outline:none;
+    margin-top: 5vmin;
+    z-index: 205;
+    opacity:1;
+}
+
+
+
+.playbarprogress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 2px;
+  height: 91vmin;
+  padding-top: 1px;
+  background: #096289;
+  cursor: pointer;
+}
+
+.playbarprogress::-moz-range-thumb {
+  appearance: none;
+  width: 2px;
+  height: 92vmin;
+  background: #096289;
+  cursor: pointer;
+}
+
+.playbarprogress{
+  position: fixed;
+  display: block;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 59%;
+  height: 92.6%; 
+  outline: none;
+  background: none;
+}  
+    
+.soundactive{
+    background-color: #A1DDFF; 
+}
+    
+.beatpadlogo{
+    z-index: 300;
+    position: fixed;
+    top:.75%;
+    left:9%;
+    width:10%;
+}
+.key01.active{
+    z-index: 300;
+    position: absolute;
+    top:4%;
+    left:4%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key01{
+    z-index: 300;
+    position: absolute;
+    top:13.5%;
+    left:4.45%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key02.active{
+    z-index: 300;
+    position: absolute;
+    top:4%;
+    left:28%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key02{
+    z-index: 300;
+    position: absolute;
+    top:13.5%;
+    left:28%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key03.active{
+    z-index: 300;
+    position: absolute;
+    top:4%;
+    left:51.75%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key03{
+    z-index: 300;
+    position: absolute;
+    top:13.5%;
+    left:51.75%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key04.active{
+    z-index: 300;
+    position: absolute;
+    top:4%;
+    left:75.75%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key04{
+    z-index: 300;
+    position: absolute;
+    top:13.5%;
+    left:75.75%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key05.active{
+    z-index: 300;
+    position: absolute;
+    top:28%;
+    left:4%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key05{
+    z-index: 300;
+    position: absolute;
+    top:28%;
+    left:4.45%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key06.active{
+    z-index: 300;
+    position: absolute;
+    top:27.75%;
+    left:28%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key06{
+    z-index: 300;
+    position: absolute;
+    top:27.75%;
+    left:28%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key07.active{
+    z-index: 300;
+    position: absolute;
+    top:27.75%;
+    left:51.75%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key07{
+    z-index: 300;
+    position: absolute;
+    top:27.75%;
+    left:51.75%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key08.active{
+    z-index: 300;
+    position: absolute;
+    top:27.75%;
+    left:75.75%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key08{
+    z-index: 300;
+    position: absolute;
+    top:27.75%;
+    left:75.75%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key09.active{
+    z-index: 300;
+    position: absolute;
+    top:51.75%;
+    left:4%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key09{
+    z-index: 300;
+    position: absolute;
+    top:51.75%;
+    left:4%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key10.active{
+    z-index: 300;
+    position: absolute;
+    top:51.75%;
+    left:28%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key10{
+    z-index: 300;
+    position: absolute;
+    top:51.75%;
+    left:28%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key11.active{
+    z-index: 300;
+    position: absolute;
+    top:51.75%;
+    left:51.75%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key11{
+    z-index: 300;
+    position: absolute;
+    top:51.75%;
+    left:51.75%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key12.active{
+    z-index: 300;
+    position: absolute;
+    top:51.75%;
+    left:75.75%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key12{
+    z-index: 300;
+    position: absolute;
+    top:51.75%;
+    left:75.75%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key13.active{
+    z-index: 300;
+    position: absolute;
+    top:75.75%;
+    left:4%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key13{
+    z-index: 300;
+    position: absolute;
+    top:75.75%;
+    left:4.45%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key14.active{
+    z-index: 300;
+    position: absolute;
+    top:75.75%;
+    left:28%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key14{
+    z-index: 300;
+    position: absolute;
+    top:75.75%;
+    left:28%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key15.active{
+    z-index: 300;
+    position: absolute;
+    top:75.75%;
+    left:51.75%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key15{
+    z-index: 300;
+    position: absolute;
+    top:75.75%;
+    left:51.75%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+.key16.active{
+    z-index: 300;
+    position: absolute;
+    top:75.75%;
+    left:75.75%;
+    width:20%;
+    opacity: .8;
+    pointer-events:none;
+}
+.key16{
+    z-index: 300;
+    position: absolute;
+    top:75.75%;
+    left:75.75%;
+    width:3%;
+    opacity: 0;
+    pointer-events:none;
+}
+    
+.dragsound{
+    z-index: 300;
+    position: fixed;
+    top:30%;
+    left:5%;
+    width:16%;
+    opacity: 1;
+    pointer-events:none;
+    animation:fade 3s forwards;
+    animation-timing-function: ease-in-out;
+}
+   
+    
+    
+.pressshift{
+    z-index: 1000;
+    position: fixed;
+    top:3%;
+    left:46.5%;
+    width:7%;
+    opacity: 0;
+    pointer-events:none;
+}
+.pressshift.active{
+    z-index: 1000;
+    position: fixed;
+    top:3%;
+    left:46.5%;
+    width:7%;
+    opacity: 1;
+    pointer-events:none;
+    animation:1.5s fader forwards;
+}
+
+.pressspace{
+    z-index: 1000;
+    position: fixed;
+    top:3%;
+    left:46.5%;
+    width:7%;
+    opacity: 0;
+    pointer-events:none;
+}
+        
+.pressspace.active{
+    z-index: 1000;
+    position: fixed;
+    top:3%;
+    left:33.5%;
+    width:7%;
+    opacity: 1;
+    pointer-events:none;
+    animation:1.5s fader forwards;
+}
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	50% {
+        opacity:1;
+	}
+    100%{
+        opacity:0;
+    }
+}
+@keyframes fader {
+	0% {
+		opacity: 1;
+	}
+    90% {
+		opacity: 1;
+	}
+    100%{
+        opacity:0;
+    }
+}
+
+.speakerbottom2{
+    z-index: 300;
+    position: fixed;
+    top:1.5%;
+    left:19.75%;
+    width:3%;    
+}
+.speakertop2{
+    z-index: 302;
+    position: fixed;
+    top:1.5%;
+    left:19.75%;
+    width:3%;
+}
+.speakermiddle2{
+    z-index: 301;
+    position: fixed;
+    top:1.5%;
+    left:19.75%;
+    width:3%;
+}
+    
+.speakerbottom{
+    z-index: 300;
+    position: fixed;
+    top:1.5%;
+    left:5.25%;
+    width:3%;   
+}
+.speakertop{
+    z-index: 302;
+    position: fixed;
+    top:1.5%;
+    left:5.25%;
+    width:3%;
+}
+.speakermiddle{
+    z-index: 301;
+    position: fixed;
+    top:1.5%;
+    left:5.25%;
+    width:3%;
+}
+
+@keyframes blurr {
+    0%{
+        filter:blur(2px);
+    }
+    100%{
+        filter:blur(0);
+    }
+}
+@keyframes grow {
+    0%{
+        transform:scale(1);
+        transform-origin: center;
+    }
+    20%{
+        transform:scale(1.2);
+        transform-origin: center;
+    }
+    40%{
+        transform:scale(1);
+        transform-origin: center;
+    }
+    60%{
+        transform:scale(1.1);
+        transform-origin: center;
+    }
+    70%{
+        transform:scale(1);
+        transform-origin: center;
+    }
+    80%{
+        transform:scale(1.05);
+        transform-origin: center;
+    }
+    100%{
+        transform:scale(1);
+        transform-origin: center;
+    }
+}

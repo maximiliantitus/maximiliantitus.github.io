@@ -11,6 +11,7 @@ html{
     background: rgb(203,228,255);
     background: linear-gradient(90deg, rgba(203,228,255,1) 0%, rgba(243,248,255,1) 100%);
     left:0%;
+    overflow-x: hidden;
 
 }
 
@@ -807,14 +808,14 @@ body{
         height:20%;
         left:15%;
         top:71%;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .textcontainer2{
         width:85%;
         height:20%;
         left:5%;
         top:71%;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .projects{
         width:6.5%;

@@ -11,7 +11,6 @@ html{
     background: rgb(203,228,255);
     background: linear-gradient(90deg, rgba(203,228,255,1) 0%, rgba(243,248,255,1) 100%);
     left:0%;
-    top:100%;
 
 }
 
@@ -67,7 +66,6 @@ html{
     height: 100vh;
     background: rgb(203,228,255);
     background: linear-gradient(90deg, rgba(243,248,255,1) 0%,  rgba(203,228,255,1) 100%);
-    top:200%;
     left:0%;
 
 }
@@ -80,7 +78,6 @@ html{
     height: 100vh;
     background: rgb(203,228,255);
     background: linear-gradient(90deg, rgba(203,228,255,1) 0%, rgba(243,248,255,1) 100%);
-    top:300%;
     left:0%;
     overflow-x: hidden;
 
@@ -668,15 +665,7 @@ body{
     .mainsection{
         height: 50vh;
     }
-    .topsection{
-        top:50%;
-    }
-    .middlesection{
-        top:150%;
-    }
-    .bottomsection{
-        top:250%;
-    }
+
     .textcontainer{
         width:80%;
         height:20%;
@@ -689,6 +678,142 @@ body{
         height:20%;
         left:5%;
         top:81%;
+        font-size: 1.1em;
+    }
+    .projects{
+        width:6.5%;
+        top:16.5%;
+        left:16%;
+    }
+    .projects2{
+        width:6.5%;
+        top:57%;
+        left:16%;
+    }
+}
+
+@media(max-width:450px){
+    .beatpadvideo{
+        left:7%;
+        height: 60%;
+        top:2%;
+    }
+    .topsectionbg{
+        left:7%;
+        height: 70%;
+        top:15%; 
+    }
+    .bottomsectionbg{
+        left:7%;
+        height: 70%;
+        top:15%; 
+    }
+    .deployedlinkbeatpad{
+        top:65%;
+        left:21%;
+    }
+    .repositorylinkbeatpad{
+        top:65%;
+        left:57%;
+    }
+    .deployedlink{
+        top:65%;
+        left:21%;
+    }
+    .repositorylink{
+        top:65%;
+        left:57%;
+    }
+    .shoegif{
+        left:7%;
+        height: 60%;
+        top:2%;
+    }
+    .morecontainer{
+        opacity: 0;
+    }
+    .morecontainer.active{
+        opacity: 1;
+        width:40%;
+        background: white;
+    }
+
+    .morebutton{
+        opacity: 1;
+        z-index: 1001;
+    }
+    .morebutton:hover{
+        animation: grow 500ms forwards;
+    }
+    .contact{
+       left:16%; 
+       width:7%;
+       bottom:28%;
+
+    }
+    .github{
+       left:16%; 
+       width:7%;
+       bottom:13%;
+
+    }
+    .linkedin{
+       left:16%; 
+       width:7%;
+       bottom:6%;
+
+    }
+    .resume{
+       left:16%; 
+       width:7%;
+       bottom:21%;
+    }
+    .bottomsectionbutton{
+        width:12%;
+        left:13%;
+    }
+    .middlesectionbutton{
+        width:12%;
+        left:13%;
+    }
+    .topsectionbutton{
+        width:12%;
+        left:13%;
+    }
+    .logo{
+        width:15%;
+        left:12%;
+    }
+    .middlesectionoverlay{
+        opacity: 0;
+    }
+    .sputnikimage{
+        right:7%;
+        height: 60%;
+        top:2%;
+    }
+    .middlesectionbg{
+        left:0%;
+        height: 70%; 
+        top:15%; 
+        width: 93vw;
+    }
+    .mainsection{
+        height: 50vh;
+    }
+
+    .textcontainer{
+        width:80%;
+        height:20%;
+        left:15%;
+        top:71%;
+        font-size: 1.1em;
+    }
+    .textcontainer2{
+        width:85%;
+        height:20%;
+        left:5%;
+        top:71%;
         font-size: 1.1em;
     }
     .projects{

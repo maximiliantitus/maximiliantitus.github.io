@@ -674,7 +674,7 @@ input{
 
 .selected::after{
     content: "";
-    background: url(arrow-down.png);
+    background: url(images/arrow-down.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -692,7 +692,7 @@ input{
 
 .selected.active::after{
     content: "";
-    background: url(arrow-up.png);
+    background: url(images/arrow-up.png);
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -739,7 +739,7 @@ input{
 
 .option::after{
     content: "";
-    background: url(draganddrop.png);
+    background: url(images/draganddrop.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -750,7 +750,7 @@ input{
 }
 
 .option:hover:after{
-    background: url(draganddrop2.png);    
+    background: url(images/draganddrop2.png);    
     content: "";
     background-repeat: no-repeat;
     background-size: contain;

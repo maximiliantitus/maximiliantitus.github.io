@@ -540,12 +540,12 @@ body{
     .btn-arrow-left{
         top:20%;
         left:2%;
-        width:3%;
+        width:5%;
     }
     .btn-arrow-right{
         top:20%;
         right:2%;
-        width:3%;
+        width:5%;
     }
     .swoosh-shoe{
     left: 10%;
@@ -745,5 +745,247 @@ body{
     top:50%;
 
 }
+
+}
+
+@media(max-width:450px){
+    .main-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .btn-arrow-left{
+        top:25%;
+        left:2%;
+        width:5%;
+    }
+    .btn-arrow-right{
+        top:25%;
+        right:2%;
+        width:5%;
+    }
+    .swoosh-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .sooole-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .mdsole-shoe{
+        left: 10%;
+        top:5%;
+    }
+
+    .bckprt-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .toeprt-shoe{
+        left: 10%;
+        top:5%;
+    }
+
+    .bodddy-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .baaack-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .laaces-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .tnglin-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .tongue-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .toline-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .tostrp-shoe{
+        left: 10%;
+        top:5%;
+    }
+
+    .wavlin-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .ankstr-shoe{
+        left: 10%;
+        top:5%;
+    }
+    .buttonsection{
+    width:100%;
+    top:45%;
+    }
+    .partidentifier{
+    top:65%;
+    left:5.5%; 
+    width: 20%;
+}
+    .greybutton{
+        top: 50%;
+        left: 67%;
+        width:5%;
+    }
+    .blackbutton{
+        top: 50%;
+        left: 31%;
+        width:5%;
+    }
+    .tanbutton{
+        top: 61%;
+        left: 49%;
+        width:5%;
+    }
+    .greenbutton{
+        top: 83%;
+        left: 49%;
+        width:5%;
+    }
+    .creambutton{
+        top: 61%;
+        left: 85%;
+        width:5%;
+    }
+    .blushbutton{
+        top: 72%;
+        left: 31%;
+        width:5%;
+    }
+    .offyellowbutton{
+        top: 61%;
+        left: 67%;
+        width:5%;
+    }
+    .darkgreybutton{
+        top: 50%;
+        left: 49%;
+        width:5%;
+    }
+    .brownbutton{
+        top: 61%;
+        left: 31%;
+        width:5%;
+    }
+    .whitebutton{
+        top: 50%;
+        left: 85%;
+        width:5%;
+    }
+    .lightbluebutton{
+        top: 72%;
+        left: 67%;
+        width:5%;
+    }
+    .lighterbluebutton{
+        top: 72%;
+        left: 85%;
+        width:5%;
+    }
+    .redbutton{
+        top: 83%;
+        left: 67%;
+        width:5%;
+    }
+    .lightbrownbutton{
+        top: 72%;
+        left: 49%;
+        width:5%;
+    }    
+
+    .swooshpart{
+        top: 50%;
+        left: 67%;
+        width:12%;
+    }
+    .solepart{
+        top: 50%;
+        left: 31%;
+        width:12%;
+
+    }
+    .midsolepart{
+        top: 61%;
+        left: 49%;
+        width:12%;
+
+    }
+    .toeprt{
+        top: 83%;
+        left: 49%;
+        width:12%;
+    }
+    .bodddy{
+        top: 61%;
+        left: 85%;
+        width:12%;
+    }
+    .baaack{
+        top: 72%;
+        left: 31%;
+        width:12%;
+    }
+    .bckprt{
+        top: 61%;
+        left: 67%;
+        width:12%;
+    }
+    .laaces{
+        top: 50%;
+        left: 49%;
+        width:12%;
+    }
+    .tnglin{
+        top: 61%;
+        left: 31%;
+        width:12%;
+    }
+    .tongue{
+        top: 50%;
+        left: 85%;
+        width:12%;
+    }
+    .toline{
+        top: 72%;
+        left: 67%;
+        width:12%;
+    }
+    .tostrp{
+        top: 72%;
+        left: 85%;
+        width:12%;
+    }
+    .wavlin{
+        top: 83%;
+        left: 67%;
+        width:12%;
+    }
+    .ankstr{
+        top: 72%;
+        left: 49%;
+        width:12%;        
+    }  
+    .dropdown{
+    width:69%;
+    top:50%;
+    left:31%;
+    }
+    .dropdown2{
+    width:69%;
+    top:50%;
+    left:31%;
+    }
+    .buttonsection2{
+    width:100%;
+    top:50%;
 
 }

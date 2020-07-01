@@ -185,6 +185,7 @@ input{
     background: radial-gradient(circle, rgba(227,230,243,1) 0%, rgba(159,159,159,1) 100%);    
     outline:none;
     border:none;
+    border-radius: 2px;
 }
 #beatpad_12{
     position:grid;

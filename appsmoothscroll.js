@@ -54,8 +54,6 @@ beatpad.addEventListener('click', function(){
 var shoecustomizer = document.querySelector('.bottomsectionbutton');
 shoecustomizer.addEventListener('click', function(){
     smoothScroll('.bottomsection',800);
-    var shoegif = document.getElementById('shoegif');
-    shoegif.src="shoe.gif";
     document.querySelector('.morecontainer').classList.remove('active');
 });
 

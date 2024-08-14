@@ -50,21 +50,17 @@ beatpad.addEventListener('click', function(){
     document.querySelector('.morecontainer').classList.remove('active');
 });
 
-
-var shoecustomizer = document.querySelector('.bottomsectionbutton');
-shoecustomizer.addEventListener('click', function(){
-    smoothScroll('.bottomsection',800);
-    document.querySelector('.morecontainer').classList.remove('active');
-});
-
-
 var sputnik = document.querySelector('.middlesectionbutton');
 sputnik.addEventListener('click', function(){
     smoothScroll('.middlesection',800);
     document.querySelector('.morecontainer').classList.remove('active');
 });
 
-
+var shoecustomizer = document.querySelector('.bottomsectionbutton');
+shoecustomizer.addEventListener('click', function(){
+    smoothScroll('.bottomsection',800);
+    document.querySelector('.morecontainer').classList.remove('active');
+});
 
 var moreButton = document.querySelector('.morebutton');
 moreButton.addEventListener("click", function(){

@@ -5,7 +5,7 @@ html{
 
 .topsection{
     position: absolute;
-    display:block;
+    display:inline-block;
     width:100vw;
     height: 100vh;
     background: rgb(203,228,255);

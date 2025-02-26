@@ -4,8 +4,7 @@ html{
 
 
 .topsection{
-    position: absolute;
-    display:inline-block;
+    display:block;
     width:100vw;
     height: 100vh;
     background: rgb(203,228,255);
